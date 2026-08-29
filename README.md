@@ -15,13 +15,6 @@ The structural categories considered in the experiments are:
 - Artifact
 - Other
 
-The main comparative methods include:
-
-- CNN [Baseline]
-- GNN [Baseline]
-- COA [Baseline]
-- CO-CGN [Proposed]
-
 ## Project Structure
 
 ```text
@@ -162,11 +155,6 @@ If the dataset is subject to redistribution restrictions, the raw dataset should
 
 Clone the repository:
 
-```bash
-git clone https://github.com/<YOUR_USERNAME>/CO-CGN-High-Fidelity-Cultural-Heritage.git
-cd CO-CGN-High-Fidelity-Cultural-Heritage
-```
-
 Create a Python environment:
 
 ```bash
@@ -233,21 +221,6 @@ Structural metrics such as Chamfer Distance, Hausdorff Distance, Point-to-Surfac
 Similarly, PSNR and SSIM require corresponding reference and reconstructed image/rendering pairs.
 
 These metrics should not be estimated or manually fabricated when the required evaluation data are unavailable.
-
-## Citation
-
-If you use this repository in academic work, please cite the associated research publication.
-
-```bibtex
-@article{co_cgn_cultural_heritage,
-  title   = {CO-CGN for High-Fidelity Cultural Heritage},
-  author  = {Author Name},
-  journal = {Journal Name},
-  year    = {2026}
-}
-```
-
-Replace the placeholder citation information with the final publication metadata once available.
 
 ## License
 
